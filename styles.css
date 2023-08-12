@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    vertical-align: baseline;
 }
 
 header {
@@ -46,40 +47,141 @@ img {
     background-color: #f5f5f5;
     min-width: 1000px;
     margin: 0 auto;
-    display:
+
 }
 
 .bg_bd_structures {
     width: 70%;
     margin: 0 auto;
     background-color: white;
-    display: grid;
+    display: flex;
+    border: solid 1px #E5E5E5;
+    box-shadow: 0 2px 3px -2px #d5d5d5;
 
+}
+
+.bg_bd_structures {
+    margin-top: 12px;
 }
 
 .body_container_1 {
     display: flex;
     width: 100%;
+    padding: 40px 20px;
+
+
 
 
 }
 
-.body_container_1-text-group {}
+.body_container_1-text-group {
+    display: block;
+}
 
 .body_container_1-1 {
     display: flex;
     justify-content: flex-end;
     font-size: 12px;
     margin-bottom: 24px;
-    width: 70%;
+
 }
 
 .body_container_1-2 p {
-    width: 70%;
+
     padding: 0 28px;
 }
 
 .body_container_1-photo img {
-    height: 140px;
-    width: 100px;
+    height: 300px;
+    width: 220px;
+
+}
+
+.img-main {
+    flex-basis: 25%;
+    flex-shrink: 0;
+}
+
+.body_container_items .name {
+    color: #519cea;
+    margin-left: 3px;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.body_container_items .num {
+    color: #888;
+
+}
+
+.body_container_items {
+    border-right: 1px solid #eee;
+    padding-right: 8px;
+}
+
+.body_container_1-photo img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.text-info {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+
+}
+
+.text-info-details {}
+
+.name {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+.char_photo {
+    width: 200px;
+}
+
+.body_container_2 {
+    padding: 40px 20px;
+    margin-top: 30px;
+}
+
+.title-wrapper {
+    border-left: 10px solid #003eb3;
+    margin: 0px -16px;
+    padding: 0px 16px;
+    display: flex;
+    align-items: center;
+}
+
+.title-wrapper .line {
+    flex-grow: 1;
+    background: #eee;
+    height: 1px;
+    margin-left: 12px;
+
+}
+
+.content-wrapper {
+    margin-top: 24px;
+    padding: 0px 10px;
+}
+
+.content-wrapper .row {
+    display: flex;
+    font-size: 6px;
+    padding: 12px 0px;
+    border-bottom: 1px dotted #ccc;
+}
+
+.content-wrapper .row .col {
+    flex-basis: 50%;
+    display: flex;
+}
+
+.body_container_3 {
+    padding: 40px 20px;
 }
